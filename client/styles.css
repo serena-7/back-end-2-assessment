@@ -1,0 +1,21 @@
+#generator-btns {
+    margin: 10px;
+}
+
+#create-activity {
+    margin: 15px;
+    padding: 5px;
+    border: 3px gray solid;
+}
+
+#random-sect {
+    margin: 15px;
+    padding: 5px;
+    border: 3px gray solid;
+}
+
+#activity-container > div {
+    margin: 10px;
+    padding: 5px;
+    border: 1px gray dotted
+}

@@ -6,6 +6,24 @@
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
 
+    <button id="fortuneButton">Get a fortune</button>
+
+    <form id="addActivity">
+      <input id="activityInput" placeholder="Enter an activity"/>
+      <input id="activityImgURL" placeholder="Enter Activity URL"/>
+      <label for="rating">Choose a Rating:</label>
+      <select id="rating" name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button>Add Activity</button>
+    </form>
+
+    <section id="activity-container"></section>
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
   </body>
